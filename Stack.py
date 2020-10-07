@@ -42,7 +42,7 @@ if __name__ == '__main__':
 	myStack.push(1)
 	myStack.push(2)
 	myStack.push(3)
-	print(myStack)	# Bottom 1 2 3 Top
+	print(myStack)	# Bottom 1 2 3 Top ->
 
 	print(myStack.peek())	# 3
 	print(len(myStack))	# 3

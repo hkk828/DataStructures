@@ -48,7 +48,7 @@ if __name__ == '__main__':
 	myQueue.enqueue(1)
 	myQueue.enqueue(2)
 	myQueue.enqueue(3)
-	print(myQueue)	# Front 1 2 3 End
+	print(myQueue)	# <- Front 1 2 3 End
 
 
 	print(myQueue.peek())		# 1
