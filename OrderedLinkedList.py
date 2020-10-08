@@ -1,5 +1,6 @@
 from LinkedList import *
 
+# Values are ordered in ascending order (Smaller the value, closer to head)
 class OrderedLinkedList(LinkedList):
 	
 	# Overriding a method from LinkedList so that the values are ordered
