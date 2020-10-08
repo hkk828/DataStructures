@@ -3,6 +3,7 @@ class Queue:
 	Implementation of Queue using python dictionary.
 	Initially key is given as key = 0, 1, 2, 3, 4, ... with lowest key is removed first.
 	As dequeue() is applied, we decrease the initial index (init_idx) one by one.
+	With slight modifications one can also implement 'deque' (double-ended queue).
 	'''
 
 	def __init__(self):
