@@ -3,6 +3,9 @@
 #### LinkedList
 Standard (singly) linked list
 
+#### OrderedLinkedList
+LinkedList with values in ascending order
+
 #### DictList
 python-like list implementation using dictionary
 
