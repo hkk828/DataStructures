@@ -1,7 +1,8 @@
-# Using recursive definition of tree
 from Stack import Stack
 from Queue import Queue
 from LinkedList import LinkedList
+
+# Using recursive definition of tree
 class BinaryTree:
 	
 	def __init__(self, root, left=None, right=None):
@@ -83,5 +84,5 @@ if __name__ == '__main__':
 	three = BinaryTree(3, right=five)
 	# myTree
 	myTree = BinaryTree(1, left=two, right=three)
-	print(myTree.dfs())	# 1 2 4 3 5 6 7
-	print(myTree.bfs())	# 1 2 3 4 5 6 7
+	print(myTree.dfs())	# Head-> 1-> 2-> 4-> 3-> 5-> 6-> 7
+	print(myTree.bfs())	# Head-> 1-> 2-> 3-> 4-> 5-> 6-> 7
